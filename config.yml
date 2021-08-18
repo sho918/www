@@ -1,0 +1,53 @@
+baseURL: https://arsho.dev/
+title: Blog
+paginate: 5
+theme: PaperMod
+
+buildDrafts: true
+buildFuture: false
+buildExpired: false
+enableRobotsTXT: true
+
+permalinks:
+  posts: /blog/:year/:filename
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: Blog
+  description: Personal blog
+  DateFormat: 2006-01-02
+
+  ShowReadingTime: true
+  ShowCodeCopyButtons: true
+
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: Webエンジニアです。
+
+  socialIcons:
+    - name: github
+      url: https://github.com/sho918
+    - name: rss
+      url: https://arsho.dev/index.xml
+
+menu:
+  main:
+    - name: Archive
+      url: archives/
+      weight: 5
+    - name: Tags
+      url: tags/
+      weight: 10
+    - name: Search
+      url: search/
+      weight: 20
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
