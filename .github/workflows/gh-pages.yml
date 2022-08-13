@@ -39,4 +39,4 @@ jobs:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           external_repository: sho918/sho918.github.io
           publish_branch: main
-          cname: arsho.dev
+          cname: blog.arsho.dev
