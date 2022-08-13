@@ -9,7 +9,7 @@ buildExpired: false
 enableRobotsTXT: true
 
 permalinks:
-  posts: /blog/:year/:slug
+  posts: /posts/:year/:slug
 
 minify:
   disableXML: true
