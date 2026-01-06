@@ -10,7 +10,7 @@
 - `archetypes/` provides front matter templates for new content.
 - `assets/css/extended/custom.css` is the main custom CSS entry.
 - `static/` is for static files copied as-is (images, icons, etc.).
-- `themes/PaperMod` is a Git submodule for the site theme.
+- `themes/archie` is a Git submodule for the site theme.
 
 ## Build, Test, and Development Commands
 
@@ -56,4 +56,4 @@
 ## Theme & Submodules
 
 - Initialize or update the theme submodule with `git submodule update --init --recursive`.
-- Theme changes should be coordinated with the upstream PaperMod project.
+- Theme changes should be coordinated with the upstream Archie project.

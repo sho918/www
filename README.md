@@ -6,3 +6,5 @@ bun i
 ```
 
 ```shell
+hugo server
+```
