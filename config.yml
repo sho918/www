@@ -1,7 +1,8 @@
 baseURL: https://blog.arsho.dev/
 title: Blog
-paginate: 5
-theme: PaperMod
+pagination:
+  pagerSize: 5
+theme: archie
 
 buildDrafts: true
 buildFuture: false
@@ -19,19 +20,14 @@ params:
   env: production
   title: Blog
   description: Personal blog
-  DateFormat: 2006-01-02
+  subtitle: "\U0001F44B Webエンジニアです"
 
-  ShowReadingTime: true
-  ShowCodeCopyButtons: true
-
-  homeInfoParams:
-    Title: "\U0001F44B"
-    Content: Webエンジニアです
-
-  socialIcons:
-    - name: github
+  social:
+    - name: GitHub
+      icon: github
       url: https://github.com/sho918
-    - name: rss
+    - name: RSS
+      icon: rss
       url: https://blog.arsho.dev/index.xml
 
 menu:
@@ -50,4 +46,3 @@ outputs:
   home:
     - HTML
     - RSS
-    - JSON
