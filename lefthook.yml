@@ -1,0 +1,6 @@
+pre-commit:
+  jobs:
+    - run: bun run fmt
+      stage_fixed: true
+    - run: bun run lint
+      stage_fixed: true
