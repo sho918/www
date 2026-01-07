@@ -1,7 +1,7 @@
 ---
-slug: {{ .Name }}
-title: {{ replace .Name "-" " " | title }}
-date: {{ .Date }}
+slug: { { .Name } }
+title: { { replace .Name "-" " " | title } }
+date: { { .Date } }
 draft: true
 tags: []
 ---
